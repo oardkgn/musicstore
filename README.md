@@ -1,3 +1,3 @@
 # Music Store Proje
 
-![picture]{pic.PNG}
+![picture](pic.PNG)
