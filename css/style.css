@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.mainbody header{
+    text-align: center;
+}
+.mainbody header h1, .products header h1, .aboutus header h1{
+    text-align: center;
+    color: rgb(120, 19, 19);
+    font-size: 3rem;
+}
+.main-navbar ul{
+    margin-left: -15px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.main-navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    border-right: 1px solid brown;
+    padding-right: 10px;
+}
+ul a:last-child li{
+    border-right: 0px;
+}
+
+.mainbody a,.products a,.aboutus a{
+    text-decoration: none;
+    color: black;
+}
+.mainbody p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.mainbody section{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.mainbody section ul{
+    list-style-position: inside;
+    margin-left:-10px;
+    font-size: 1.2rem;
+}
+.container{
+    display: grid;
+    height: auto;
+    width: 90%;
+    grid-template-columns: repeat(4,1fr);
+    margin: auto;
+    gap: 20px;
+}
+.container div {
+    
+}
+.container div img {
+    width: 100%;
+    height: 90%;
+    
+    
+}
+.container div p{
+    text-align: center;
+}
+
+.aboutus section h2{
+    color: rgb(70, 17, 17);
+}
+
+.aboutus section{
+    margin-top: 80px;
+}
+
